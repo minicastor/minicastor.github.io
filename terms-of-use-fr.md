@@ -1,4 +1,4 @@
-# Date d'entrée en vigueur : 18 mars 2025
+# Date d'entrée en vigueur : 18 mars 2026
 
 ## 1. Introduction
 
@@ -16,7 +16,7 @@ Sous réserve des présentes Conditions, nous vous accordons une licence limité
 
 Tous les titres, droits de propriété et droits de propriété intellectuelle relatifs au Jeu et à son contenu (y compris, mais sans s'y limiter, le code, les graphismes, les illustrations, les éléments sonores, la musique, les personnages tels que "Pwet Pwet le Mini Castor", les noms, les logos et autres éléments créatifs) nous appartiennent ou appartiennent à nos concédants. Nous conservons tous les droits qui ne vous sont pas expressément accordés par les présentes Conditions.
 
-Vous ne pouvez pas copier, reproduire, distribuer, créer des œuvres dérivées, afficher publiquement, exploiter commercialement ou utiliser de quelque manière que ce soit les personnages, les illustrations ou toute autre propriété intellectuelle du Jeu en dehors du Jeu sans notre autorisation écrite préalable. Cela inclut notamment toute utilisation des personnages tels que Pwet Pwet the Lil Beaver dans d'autres jeux, produits dérivés, supports marketing ou médias dérivés en dehors de nos produits autorisés.
+Vous ne pouvez pas copier, reproduire, distribuer, créer des œuvres dérivées, afficher publiquement, exploiter commercialement ou utiliser de quelque manière que ce soit les personnages, les illustrations ou toute autre propriété intellectuelle du Jeu en dehors du Jeu sans notre autorisation écrite préalable. Cela inclut notamment toute utilisation des personnages tels que Pwet Pwet le Mini Castor dans d'autres jeux, produits dérivés, supports marketing ou médias dérivés en dehors de nos produits autorisés.
 
 ## 5. Restrictions
 

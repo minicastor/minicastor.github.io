@@ -1,4 +1,4 @@
-# Effective Date: March 18, 2025
+# Effective Date: March 18, 2026
 
 Below is our updated Privacy Policy which explains which personal information is being collected and used Wordbox.\
 This policy applies to the game (Wordbox), the website, and socials.

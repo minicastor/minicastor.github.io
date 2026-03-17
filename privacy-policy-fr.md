@@ -1,4 +1,4 @@
-# Date d'entrée en vigueur : 18 mars 2025
+# Date d'entrée en vigueur : 18 mars 2026
 
 Vous trouverez ci‑dessous notre politique de confidentialité mise à jour qui explique quelles informations personnelles sont collectées et utilisées par Wordbox.
 Cette politique s'applique au jeu (Wordbox), au site web et aux réseaux sociaux.
