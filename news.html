@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>📰 News | Wordbox: Play with your words!</title>
+		<link rel="stylesheet" href="assets/styles/style.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div id="nav-load"></div>
+
+		<div class="content">
+			<header class="page-header">
+				<h1 class="page-title">News & Changelog</h1>
+			</header>
+
+			<zero-md id="markdown" src="news-en.md">
+				<template>
+					<style>
+						div.markdown-body {
+							background-color: #fff;
+							color: #000;
+							padding: 25px;
+							padding-top: 1px;
+							border-radius: 20px;
+						}
+					</style>
+				</template>
+			</zero-md>
+		</div>
+
+		<script>
+			var langSelect;
+			let pageTitleLocalized = ["News & Changelog", "Nouvelles & Changements"];
+			let mdPage = ["news-en.md", "news-fr.md"];
+
+			document.addEventListener("DOMContentLoaded", (event) => {
+				$("#nav-load").load("assets/components/nav.html", function () {
+					langSelect = document.getElementById("language");
+					updateTexts(langSelect.value);
+					langSelect.addEventListener("change", (event) => updateTexts(event.target.value));
+					$("#footer-load").load("assets/components/footer.html");
+				});
+			});
+
+			function updateTexts(languageIndex) {
+				document.querySelector(".page-title").innerText = pageTitleLocalized[languageIndex];
+				document.getElementById("markdown").src = mdPage[languageIndex];
+			}
+		</script>
+
+		<div id="footer-load"></div>
+	</body>
+</html>

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Gabarito:wght@400..900&display=swap');
+
+:root {
+	--color-accent-orange: #ff6b00;
+	--color-accent-pink: #ff71be;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--color-accent-orange);
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+	font-size: 1rem;
+	font-family: 'Gabarito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+div.content {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+div#nav-load {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+	background-color: var(--color-accent-orange);
+	/* backdrop-filter: blur(10px) brightness(.5); */
+	box-shadow: #00000055 0 0 25px;
+}
+
+nav div.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+	flex-wrap: wrap;
+	padding: 10px 25px;
+}
+
+nav div.content a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav div.content a.title {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 2.5rem;
+}
+
+nav div.content div.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	font-weight: 700;
+}
+
+nav div.content div.links a {
+	padding: 0 10px;
+}
+
+
+footer div.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 25px;
+}
+
+footer div.content div.links {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer div.content div.links a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 10px;
+	position: relative;
+}
+
+footer div.content div.links a::after {
+	content: '|';
+	position: absolute;
+	right: 0;
+	transform: translateX(50%);
+}
+
+footer div.content div.links a:last-child::after {
+	content: none;
+}
+
+footer div.content p {
+	font-weight: 800;
+}
+
+
+header.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 25px;
+	gap: 25px;
+}
+
+header.page-header h1 {
+	font-size: 2.5rem;
+	font-weight: 900;
+}
+
+div.language-option {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3px;
+	color: var(--color-accent-orange);
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 50px;
+}
+
+div.language-option select {
+	border: none;
+	background-color: transparent;
+	color: var(--color-accent-orange);
+	font-family: 'Gabarito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 600;
+}
+
+div.language-option select:hover {
+	cursor: pointer;
+}
+
+div.coming-soon-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	font-size: 2rem;
+	font-weight: 900;
+}

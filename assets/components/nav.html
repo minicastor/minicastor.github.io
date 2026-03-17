@@ -1,0 +1,39 @@
+<nav>
+	<div class="content">
+		<a href="../../#" class="title notranslate" translate="no">Wordbox</a>
+		<div class="links">
+			<a href="../../news.html#" id="nav-news">News</a>
+			<a href="../../#" id="nav-download">Download</a>
+			<div class="language-option">
+				<i class="fa-solid fa-language"></i>
+				<select name="Language" id="language">
+					<option value="0">English</option>
+					<option value="1">Français</option>
+				</select>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<script>
+	// localStorage.clear();
+	var langSelect;
+
+	let navNewsLocalized = ["News", "Nouvelles"];
+	let navDownloadLocalized = ["Download", "Télécharger"];
+
+	langSelect = document.getElementById("language");
+	if (localStorage.getItem("language") != null) {
+		langSelect.value = localStorage.getItem("language");
+		updateNavTexts(langSelect.value);
+	}
+	langSelect.addEventListener("change", (event) => {
+		localStorage.setItem("language", event.target.value);
+		updateNavTexts(event.target.value);
+	});
+
+	function updateNavTexts(languageIndex) {
+		document.getElementById("nav-news").innerText = navNewsLocalized[languageIndex];
+		document.getElementById("nav-download").innerText = navDownloadLocalized[languageIndex];
+	}
+</script>

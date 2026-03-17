@@ -1,0 +1,25 @@
+<footer>
+	<div class="content">
+		<div class="links">
+			<a href="../../news.html#" id="footer-news">News & Changelog</a>
+			<a href="../../privacy-policy.html#" id="footer-privacy-policy">Privacy Policy</a>
+			<a href="../../terms-of-use.html#" id="footer-terms-of-use">Terms of Use</a>
+		</div>
+		<p>&copy;&nbsp;2026&nbsp;-&nbsp;Wordbox</p>
+	</div>
+</footer>
+
+<script>
+	let footerNewsLocalized = ["News & Changelog", "Nouvelles & Changements"];
+	let footerPrivacyLocalized = ["Privacy Policy", "Politique de Confidentialité"];
+	let footerTermsUseLocalized = ["Terms of Use", "Conditions d'utilisation"];
+
+	updateFooterTexts(langSelect.value);
+	langSelect.addEventListener("change", (event) => updateFooterTexts(event.target.value));
+
+	function updateFooterTexts(languageIndex) {
+		document.getElementById("footer-news").innerText = footerNewsLocalized[languageIndex];
+		document.getElementById("footer-privacy-policy").innerText = footerPrivacyLocalized[languageIndex];
+		document.getElementById("footer-terms-of-use").innerText = footerTermsUseLocalized[languageIndex];
+	}
+</script>
