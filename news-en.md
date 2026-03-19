@@ -1,4 +1,4 @@
-# Version 2026.03.?? - First Release!
+# Version 2026.03.19 - First Release!
 
 ## Note about the first release
 We are very happy to release the first version of Wordbox on Google Play!
