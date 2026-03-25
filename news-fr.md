@@ -1,4 +1,36 @@
-# Version 2026.03.19 - Première sortie !
+# Version 2026.03.25 - Nouveau mode de jeu&nbsp;!
+
+## **Perce Mot** :
+Un tout nouveau mode de jeu a été ajouté ! Dans ce mode, vous devez essayer de trouver le mot caché sans faire éclater tous vos ballons.\
+Vous pouvez jouer à ce mode aussi souvent que vous le souhaitez, mais vous ne gagnerez de la monnaie en jeu qu'une seule fois par jour.
+
+## **Menu des missions** :
+Le menu des missions est enfin disponible ! Amusez-vous à accomplir des missions quotidiennes et hebdomadaires pour gagner de la monnaie en jeu.\
+Vous ne pouvez pas encore dépenser cette monnaie, mais une fois la boutique ouverte vous serez tellement riche que vous pourrez tout acheter si vous avez accompli des missions !
+
+## Divers :
+- **Message Serpent** :
+	- Lorsque la musique de fond est activée, son volume baisse désormais pendant l'écran des résultats pour mieux entendre la voix de lecture automatique.
+	- Une voix de test se jouera si vous activez la voix dans les options du jeu.
+
+- **Ajustements** :
+	- Les niveaux sonores ont été ajustés pour une meilleure expérience.
+
+- **Optimisations** : 
+	- Les pistes de musique de fond ont été réduites en taille et leur qualité est légèrement diminuée pour économiser de l'espace sur votre appareil.
+	- Les pistes de musique de fond bouclent désormais correctement.
+	- Le mode de rendu a été changé de « Mobile » à « Compatibility » pour améliorer la compatibilité avec davantage d'appareils.
+
+<br>
+<br>
+
+___
+
+<br>
+<br>
+
+
+# Version 2026.03.19 - Première sortie&nbsp;!
 
 ## Remarques concernant cette première version
 Nous sommes très heureux de publier la première version de Wordbox sur Google Play !

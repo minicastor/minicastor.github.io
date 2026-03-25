@@ -1,3 +1,35 @@
+# Version 2026.03.25 - New game mode!
+
+## **Word Pop**:
+A brand new game mode has been added to the game! In this game mode, you must try to find the hidden word without popping all your balloons.\
+You can play this game mode as much as you wish, however you will only earn money once per day.
+
+## **Mission Menu**:
+The mission menu has finally opened! Have fun completing daily and weekly missions to earn money.\
+You currently can't spend that money yet, but once the shop opens you will already have enough money to purchase some things if you completed missions already!
+
+## Miscellaneous:
+- **Snake Message**:
+	- As of now, if the background music is enabled, its volume will lower during results for a better hearing of the auto read voice.
+	- A test voice will play if you enable the voice in the game's option.
+
+- **Tweaks**:
+	- All the audio volumes were adjusted for a better experience.
+
+- **Optimization**: 
+	- All background music tracks were shrunk down and the quality is a bit lower to save up some space on your device.
+	- All background music tracks now loops properly.
+	- Changed the rendering mode from Mobile to Compatibility as an attempt to support more devices.
+
+<br>
+<br>
+
+___
+
+<br>
+<br>
+
+
 # Version 2026.03.19 - First Release!
 
 ## Note about the first release
