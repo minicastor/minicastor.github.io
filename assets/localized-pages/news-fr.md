@@ -1,3 +1,29 @@
+# Version 2026.03.27 - Petites améliorations
+
+## **Journamot** :
+
+- Dorénavant, la partie ne démarre pas automatiquement. Ainsi, vous pouvez consulter vos statistiques de jeu sans avoir à chercher le mot du jour.
+- Dorénavant, au démarrage d'une partie de Journamot, on vous demande si vous souhaitez faire tourner une roue d'indices.
+- Les 10 derniers mots devinés sont désormais affichés dans les statistiques du jeu.
+
+## Divers :
+
+- Le menu des modes de jeu a été ajusté :
+	- De courtes descriptions des jeux sont maintenant affichées directement.
+	- Vous n'êtes plus obligé d'appuyer sur un bouton « jouer » pour ouvrir le jeu.
+	- La difficulté du mode de jeu est désormais affichée à côté du nombre de joueurs.
+- De nouveaux types de mission ont été ajouté :
+	- Jouer à n'importe quel mode de jeu
+	- Gagner n'importe quel mode de jeu _(Remarque : cela ne fonctionne pas avec le mode de jeu "Message Serpent", car ce mode n'a pas de condition de victoire ou de défaite)_
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
 # Version 2026.03.25 - Nouveau mode de jeu&nbsp;!
 
 ## **Perce Mot** :
