@@ -146,7 +146,19 @@ section.about-game div.content div.split.missions img {
 		display: none;
 	}
 
+	section.about-game div.content div.games-container {
+		gap: 5px;
+	}
+
 	section.about-game div.content div.games-container div.game {
 		width: calc(100% / 2 - 10px);
+		border-radius: 15px;
+		padding: 15px;
+		padding-bottom: 50px;
+	}
+
+	section.about-game div.content div.games-container div.game div.info {
+		bottom: 15px;
+		right: 15px;
 	}
 }
