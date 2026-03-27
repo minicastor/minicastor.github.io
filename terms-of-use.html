@@ -19,7 +19,7 @@
 				<h1 class="page-title">Terms of Use</h1>
 			</header>
 
-			<zero-md id="markdown" src="terms-of-use-en.md">
+			<zero-md id="markdown" src="assets/localized-pages/terms-of-use-en.md">
 				<template>
 					<style>
 						div.markdown-body {
@@ -34,24 +34,23 @@
 			</zero-md>
 		</div>
 
-		<script>
-			let pageTitleLocalized = ["Terms of Use", "Conditions d'utilisation"];
-			let mdPage = ["terms-of-use-en.md", "terms-of-use-fr.md"];
-
-			document.addEventListener("DOMContentLoaded", (event) => {
-				$("#nav-load").load("assets/components/nav.html", function () {
-					updateTexts(langSelect.value);
-					langSelect.addEventListener("change", (event) => updateTexts(event.target.value));
-					$("#footer-load").load("assets/components/footer.html");
-				});
-			});
-
-			function updateTexts(languageIndex) {
-				document.querySelector(".page-title").innerText = pageTitleLocalized[languageIndex];
-				document.getElementById("markdown").src = mdPage[languageIndex];
-			}
-		</script>
-
 		<div id="footer-load"></div>
 	</body>
+	<script>
+		let pageTitleLocalized = ["Terms of Use", "Conditions d'utilisation"];
+		let mdPage = ["terms-of-use-en.md", "terms-of-use-fr.md"];
+
+		document.addEventListener("DOMContentLoaded", (event) => {
+			$("#nav-load").load("assets/components/nav.html", function () {
+				updateTexts(langSelect.value);
+				langSelect.addEventListener("change", (event) => updateTexts(event.target.value));
+				$("#footer-load").load("assets/components/footer.html");
+			});
+		});
+
+		function updateTexts(languageIndex) {
+			document.querySelector(".page-title").innerText = pageTitleLocalized[languageIndex];
+			document.getElementById("markdown").src = "assets/localized-pages/" + mdPage[languageIndex];
+		}
+	</script>
 </html>

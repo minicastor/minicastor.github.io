@@ -1,0 +1,152 @@
+section.download {
+	background-color: #fff;
+	padding: 100px 25px;
+}
+
+section.download div.content div.split div.short-info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	color: #000;
+}
+
+section.download div.content div.split div.short-info p:nth-child(1) {
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+section.download div.content div.split div.short-info p:nth-child(2) {
+	margin-bottom: 9px;
+}
+
+section.download div.content div.split img {
+	display: block;
+	max-width: 250px;
+	border-radius: 25px;
+}
+
+section.about-game {
+	background-color: #fff;
+	color: #000;
+	padding: 50px 5px;
+}
+
+section.about-game div.content {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+section.about-game div.content div.screenshots-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	margin: 12px 0 50px;
+}
+
+section.about-game div.content div.screenshots-container img {
+	display: block;
+	width: calc(100% / 4 - 11px);
+	border-radius: 15px;
+}
+
+section.about-game div.content div.games-container {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	margin: 10px 0 50px;
+}
+
+section.about-game div.content div.games-container div.game {
+	width: calc(100% / 3 - 10px);
+	background-color: var(--color-accent-orange);
+	padding: 20px;
+	padding-bottom: 55px;
+	border-radius: 20px;
+	color: #fff;
+	position: relative;
+	transition: all ease 250ms;
+}
+
+section.about-game div.content div.games-container div.game:hover {
+	box-shadow: 0 5px 10px #00000044;
+}
+
+section.about-game div.content div.games-container div.game p.name {
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+section.about-game div.content div.games-container div.game div.info {
+	display: flex;
+	gap: 10px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+section.about-game div.content div.games-container div.game div.info p {
+	background-color: #fff;
+	color: var(--color-accent-orange);
+	font-weight: 700;
+	padding: 3px 9px 3px 5px;
+	border-radius: 6px;
+}
+
+section.about-game div.content div.split.missions {
+	align-items: flex-start;
+}
+
+section.about-game div.content div.split.missions div {
+	max-width: calc(100% - 400px - 25px);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+section.about-game div.content div.split.missions img {
+	display: block;
+	max-width: 400px;
+	mask-image: linear-gradient(#fff 75%, transparent);
+}
+
+@media (max-width: 850px) {
+	section.download div.content div.split {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	section.download div.content div.split div.short-info {
+		align-items: center;
+	}
+}
+
+@media (max-width: 775px) {
+	section.about-game div.content div.split.missions div {
+		max-width: 100%;
+	}
+
+	section.about-game div.content div.split.missions img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 700px) {
+	section.about-game div.content div.screenshots-container {
+		flex-wrap: wrap;
+	}
+
+	section.about-game div.content div.screenshots-container img {
+		width: calc(100% / 3 - 11px);
+	}
+
+	section.about-game div.content div.screenshots-container img:last-child {
+		display: none;
+	}
+
+	section.about-game div.content div.games-container div.game {
+		width: calc(100% / 2 - 10px);
+	}
+}

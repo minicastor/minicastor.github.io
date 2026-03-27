@@ -19,7 +19,7 @@
 				<h1 class="page-title">News & Changelog</h1>
 			</header>
 
-			<zero-md id="markdown" src="news-en.md">
+			<zero-md id="markdown" src="assets/localized-pages/news-en.md">
 				<template>
 					<style>
 						div.markdown-body {
@@ -34,26 +34,25 @@
 			</zero-md>
 		</div>
 
-		<script>
-			var langSelect;
-			let pageTitleLocalized = ["News & Changelog", "Nouvelles & Changements"];
-			let mdPage = ["news-en.md", "news-fr.md"];
-
-			document.addEventListener("DOMContentLoaded", (event) => {
-				$("#nav-load").load("assets/components/nav.html", function () {
-					langSelect = document.getElementById("language");
-					updateTexts(langSelect.value);
-					langSelect.addEventListener("change", (event) => updateTexts(event.target.value));
-					$("#footer-load").load("assets/components/footer.html");
-				});
-			});
-
-			function updateTexts(languageIndex) {
-				document.querySelector(".page-title").innerText = pageTitleLocalized[languageIndex];
-				document.getElementById("markdown").src = mdPage[languageIndex];
-			}
-		</script>
-
 		<div id="footer-load"></div>
 	</body>
+	<script>
+		var langSelect;
+		let pageTitleLocalized = ["News & Changelog", "Nouvelles & Changements"];
+		let mdPage = ["news-en.md", "news-fr.md"];
+
+		document.addEventListener("DOMContentLoaded", (event) => {
+			$("#nav-load").load("assets/components/nav.html", function () {
+				langSelect = document.getElementById("language");
+				updateTexts(langSelect.value);
+				langSelect.addEventListener("change", (event) => updateTexts(event.target.value));
+				$("#footer-load").load("assets/components/footer.html");
+			});
+		});
+
+		function updateTexts(languageIndex) {
+			document.querySelector(".page-title").innerText = pageTitleLocalized[languageIndex];
+			document.getElementById("markdown").src = "assets/localized-pages/" + mdPage[languageIndex];
+		}
+	</script>
 </html>

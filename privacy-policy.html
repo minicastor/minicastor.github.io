@@ -19,7 +19,7 @@
 				<h1 class="page-title">Privacy Policy</h1>
 			</header>
 
-			<zero-md id="markdown" src="privacy-policy-en.md">
+			<zero-md id="markdown" src="assets/localized-pages/privacy-policy-en.md">
 				<template>
 					<style>
 						div.markdown-body {
@@ -34,24 +34,23 @@
 			</zero-md>
 		</div>
 
-		<script>
-			let pageTitleLocalized = ["Privacy Policy", "Politique de Confidentialité"];
-			let mdPage = ["privacy-policy-en.md", "privacy-policy-fr.md"];
-
-			document.addEventListener("DOMContentLoaded", (event) => {
-				$("#nav-load").load("assets/components/nav.html", function () {
-					updateTexts(langSelect.value);
-					langSelect.addEventListener("change", (event) => updateTexts(event.target.value));
-					$("#footer-load").load("assets/components/footer.html");
-				});
-			});
-
-			function updateTexts(languageIndex) {
-				document.querySelector(".page-title").innerText = pageTitleLocalized[languageIndex];
-				document.getElementById("markdown").src = mdPage[languageIndex];
-			}
-		</script>
-
 		<div id="footer-load"></div>
 	</body>
+	<script>
+		let pageTitleLocalized = ["Privacy Policy", "Politique de Confidentialité"];
+		let mdPage = ["privacy-policy-en.md", "privacy-policy-fr.md"];
+
+		document.addEventListener("DOMContentLoaded", (event) => {
+			$("#nav-load").load("assets/components/nav.html", function () {
+				updateTexts(langSelect.value);
+				langSelect.addEventListener("change", (event) => updateTexts(event.target.value));
+				$("#footer-load").load("assets/components/footer.html");
+			});
+		});
+
+		function updateTexts(languageIndex) {
+			document.querySelector(".page-title").innerText = pageTitleLocalized[languageIndex];
+			document.getElementById("markdown").src = "assets/localized-pages/" + mdPage[languageIndex];
+		}
+	</script>
 </html>

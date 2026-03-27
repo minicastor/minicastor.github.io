@@ -30,11 +30,25 @@ button {
 	cursor: pointer;
 }
 
+div.scroll {
+	/* display: none; */
+	scroll-margin-top: 60px;
+}
+
 div.content {
 	max-width: 1000px;
 	width: 100%;
 	margin: 0 auto;
 }
+
+div.split {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
 
 div#nav-load {
 	position: sticky;
@@ -113,17 +127,19 @@ footer div.content div.links a:last-child::after {
 }
 
 footer div.content p {
+	font-size: .75rem;
+	opacity: 0.75;
+}
+
+footer div.content p:nth-child(2) {
+	font-size: 1rem;
+	opacity: 1;
 	font-weight: 800;
 }
 
 
 header.page-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
 	padding: 25px;
-	gap: 25px;
 }
 
 header.page-header h1 {
@@ -163,4 +179,47 @@ div.coming-soon-center {
 	height: 100vh;
 	font-size: 2rem;
 	font-weight: 900;
+}
+
+a.cta {
+	background-color: var(--color-accent-orange);
+	border: 5px solid var(--color-accent-orange);
+	box-shadow: 0 2px 6px #00000044;
+	border-radius: 10px;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-weight: 800;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+a.cta.cta-alt {
+	background-color: #fff;
+	color: var(--color-accent-orange);
+}
+
+div.cta-container {
+	display: flex;
+	gap: 10px;
+}
+
+@media (max-width: 600px) {
+	nav div.content {
+		flex-direction: column;
+		gap: 5px;
+		padding: 15px;
+	}
+
+	footer div.content div.links {
+		flex-direction: column;
+	}
+
+	footer div.content div.links a {
+		padding: 5px 10px;
+		text-align: center;
+	}
+
+	footer div.content div.links a::after {
+		content: none;
+	}
 }
