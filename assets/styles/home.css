@@ -151,7 +151,7 @@ section.about-game div.content div.split.missions img {
 	}
 
 	section.about-game div.content div.games-container div.game {
-		width: calc(100% / 2 - 10px);
+		width: calc(100% / 2 - 2.5px);
 		border-radius: 15px;
 		padding: 15px;
 		padding-bottom: 50px;
@@ -160,5 +160,16 @@ section.about-game div.content div.split.missions img {
 	section.about-game div.content div.games-container div.game div.info {
 		bottom: 15px;
 		right: 15px;
+	}
+}
+
+@media (max-width: 500px) {
+	section.about-game div.content div.games-container {
+		gap: 10px;
+
+	}
+
+	section.about-game div.content div.games-container div.game {
+		width: 100%;
 	}
 }
