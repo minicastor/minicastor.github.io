@@ -1,4 +1,30 @@
-# Version 2026.03.27 - Small tweaks
+# Version 2026.04.06 - New game mode! 🎉
+
+## **Word Search**:
+A brand new game mode has been added to the game! In this game mode, you must find all the listed words in the grid.\
+There are currently 56 different levels (per language), will you be able to complete them all?\
+More levels and categories will be added over the time!
+
+## New stuff & tweaks:
+- Each game mode now contains an info button in the top bar that displays some information and rules.
+- New types of missions were added.
+- Tweaked the speech bubble visuals.
+
+## Bug fixes:
+- Fixed a bug where losing a game of "Word Pop" wouldn’t complete the "Play any game" mission.
+- Removed the "backspace" and "enter" keys from "Word Pop" as they were unfairly popping balloons.
+- Fixed a bug where guessed words history wouldn’t save properly in "Wordaily".
+- Corrected some typos.
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# Version 2026.03.27 - Small tweaks 🔁
 
 ## **Wordaily**:
 
@@ -24,7 +50,7 @@
 <br>
 <br>
 
-# Version 2026.03.25 - New game mode!
+# Version 2026.03.25 - New game mode! 🎉
 
 ## **Word Pop**:
 
@@ -58,7 +84,7 @@ You currently can't spend that money yet, but once the shop opens you will alrea
 <br>
 <br>
 
-# Version 2026.03.19 - First Release!
+# Version 2026.03.19 - First Release! 🎉
 
 ## Note about the first release
 
