@@ -1,3 +1,45 @@
+# Version 2026.04.14 - Small tweaks 🔁
+
+## 📳  Haptic feedback:
+Haptics has been added to the game. You can now feel a haptic feedback by interacting with the menus, or with some game mode's interactions. As an example, when you pop a balloon in "Word Pop", a big haptic plays.
+
+You can disable the haptic feedback at any time in the settings menu.
+
+## 📨 In-game reports:
+A new report menu has been added to the game. You can access it through the settings menu.
+
+You can directly send report to the developers such as bug reports, feature requests, and feedback directly through the game.
+
+### Notes about the in-game reports:
+
+- An email address is required, this is in case we need to reach you back. You can also input your Discord tag instead of an email address if you prefer a more direct exchange! *(just make sure to add the @ symbol in front of your tag in the email field)*
+
+- The following information about your device are being automatically sent with your report:
+  - Your device operating system (including its current installed version, *e.g.: iOS 26.4.0*)
+  - Your device model (*e.g.: iPhone 17*)
+  - The amount of memory (RAM)
+
+- The following information about your current save data are being automatically sent with your report:
+  - The current game version installed on your device (*e.g.: Version 2026.04.14*)
+  - Your current language settings (*e.g.: Language: FR | Keyboard disposition: QWERTY*)
+  - Your current amount of in-game money (at the time of the report)
+
+**No additional data is collected besides the data listed above.**
+
+## Miscellaneous:
+
+- The settings menu has been visually improved to fit the rest of the global design language.
+- The previous achievement menu has been replaced with an upcoming customize menu. In the future, once the shop will be added, this will be where you will be able to select the things you purchased!
+- Achievements are not cancelled, they has been moved to the missions menu as "All-time quests" instead. These quests will be added in the future.
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
 # Version 2026.04.06 - New game mode! 🎉
 
 ## **Word Search**:
